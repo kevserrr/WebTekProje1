@@ -1,0 +1,36 @@
+BÝLGÝSAYAR VE BÝLÝÞÝM BÝLÝMLERÝ FAKÜLTESÝ 
+BÝLGÝSAYAR MÜHENDÝSLÝÐÝ BÖLÜMÜ
+WEB TEKNOLOJÝLERÝ DERSÝ
+1-A GRUBU
+Öðr.Gör.Dr. CAN YÜZKOLLAR
+KENDÝMÝZÝ VE YAÞADIÐIMIZ ÞEHRÝ TANITAN WEB SÝTESÝ
+KEVSER BÜYÜK AYDIN
+B151210075
+
+
+
+Proje Amacý
+Kendimizi ve yaþadýðýmýz þehri tanýtan bir web sitesi geliþtirilecektir.
+
+Kullanýlacak Teknolojiler
+Projenin front-end kýsmýnda Html,Css,JavaScript vb. diller kullanýlacaktýr.Back-end kýsmý ise Php ile yapýlacaktýr.Bootstrap ile responsive bir yapý geliþtirilecektir.
+VS Code editörü kullanýlacaktýr. Projedeki stiller ayrý bir css dosyasýnda tutulacaktýr.
+
+Proje Detaylarý
+Web sitemizde toplamda altý Html sayfa bulunacaktýr. Hakkýmda, Özgeçmiþim, Þehrim, Mirasýmýz, Giriþ ve Ýletiþim sayfalarý olacaktýr.
+•Hakkýmda Sayfasý
+Hakkýmda sayfasý giriþ sayfasý þeklinde olacaktýr. Bu sayfada beni tanýtan hobilerim, yaptýðým etkinliklerim, sevdiðim sporlar yer alacaktýr.Bunlara ait resimler ve linkler bulunacaktýr.
+•Özgeçmiþim Sayfasý
+Bu sayfa Cv ‘min yer aldýðý sayfa olacaktýr. Eðitim bilgilerim burada olacaktýr. Table veya divlerle yapýlmasý planlanmýþtýr.
+•Þehrim Sayfasý
+Yaþadýðým þehre ait bilgiler yer alacaktýr. Burada en az 4 resimli bir slider yer alacaktýr. Resimlerden birine týklandýðýnda resme ait içeriðe gidecektir. Gidilen sayfada da geri tuþu yer alacaktýr. Sayfaya Css ile þekil verilecektir.
+•Mirasýmýz Sayfasý
+Þehre ait önemli kültürel bir miras Html elemanlarý kullanýlarak tanýtýlacaktýr.
+•Giriþ Sayfasý
+Bu sayfa tek bir kiþi için aktif olacaktýr.Kullanýcý, kullanýcý adýný ve þifresi ile giriþ yapacaktýr.Bir Php sayfasýna yönlendireceðiz. Baþarýlý giriþ yapýlmýþsa sayfada Hoþgeldiniz yazýsý çýkacaktýr.Hatalý giriþ yapýldýðý takdirde giriþ sayfasýna geri yönlendireceðiz.
+Kullanýcý adý ve þifre boþ geçilemeyecektir.Kullanýcý adýnda “@” girilmemiþse yine ayný þekilde uyarý verilecektir.
+•Ýletiþim Sayfasý
+Form elemanlarý yer alacaktýr.Sayfada kontrol iþlemleri JavaScript ile yapýlacaktýr. Alanlar boþ geçilemeyecek,mail kontrolü yapýlacaktýr.
+Formda “Bizimle Ýletiþime Geçebilirsiniz” gibi bir yazý yer alacaktýr.
+Temizle ve Gönder adlý iki buton yer alacaktýr.Temizle butonu ile girilen bilgiler temizlenecektir. Gönder butonu ile doðru girilen bilgiler baþka bir sayfada görüntülenecektir.
+
