@@ -1,7 +1,7 @@
 <HTML lang="tr">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="WEB PROJESİ">
+    <meta name="description" content="Profesyonel Web Dersleri">
     <meta name="author" content="Kevser">
     <meta name="keywords" content="WEB PROJE">
     <meta name="viewport" content="width=device-width", initial-scale=1.0>
@@ -45,6 +45,91 @@
       </div>
     </div>
   </nav>
+
+      <!-- İLETİŞİM ALANI-->
+  <section id="iletisimSection">
+      <div class="container"> 
+      
+      
+          <div class="iletisim-wrapper">
+    <div class="iletisim-baslik">
+      Benimle İletişime Geçebilirsiniz
+    </div>
+    <div class="form">
+      <form action="contact.php" onsubmit="return validateForm()" method="post" name="iletisimForm">
+        <div class="iletisim-icerik">
+          <label>Ad</label>
+          <input id="ad" type="text" name="ad" class="input">
+        </div> 
+        <span id="errorAd" class="iletisimUyari"></span>
+        <div class="iletisim-icerik">
+          <label>Soyad</label>
+          <input id="soyad" type="text" name="soyad" class="input">
+       </div>  
+       <span id="errorSoyad" class="iletisimUyari"></span>
+       <div class="iletisim-icerik">
+          <label>Yaş</label>
+          <input id="yas" type="text" name="yas" class="input">
+       </div>  
+       <span id="errorYas" class="iletisimUyari"></span>
+      <div class="iletisim-icerik">
+          <label>Cinsiyet</label>
+          <input id="kadin" type="radio" name="cinsiyet" value="kadin" class="input"><span class="cinsiyet">Kadın</span>
+          <input id="erkek" type="radio" name="cinsiyet" value="erkek" class="input"><span class="cinsiyet">Erkek</span>
+       </div> 
+       <span id="errorCinsiyet" class="iletisimUyari"></span>
+       <div class="iletisim-icerik">
+          <label>Email</label>
+          <input id="mail" type="text" name="email" class="input">
+       </div> 
+       <span id="errorEmail" class="iletisimUyari"></span>
+        <div class="iletisim-icerik">
+          <label>Mesaj Konusu</label>
+          <div class="mesaj-secim">
+            <select id="msjsecim" name="mesajkonu">
+              <option value="Seciniz" >Seciniz</option>
+              <option value="kisisel" >Kişisel</option>
+              <option value="site">Site Hakkında</option>
+              <option value="diger">Diğer</option>
+            </select>
+          </div>
+       </div> 
+       <span id="errorSelect" class="iletisimUyari"></span>
+      <div class="iletisim-icerik">
+          <label>Mesaj</label>
+          <textarea id="mesaj" name="mesaj" class="textarea"></textarea>
+       </div> 
+       <span id="errorMesaj" class="iletisimUyari"></span>
+      <div class="iletisim-icerik terms">
+          <label class="check">
+            <input id="onay" type="checkbox">
+          </label>
+          <p class="onayMesaji">Girilen bilgileri onaylıyorum</p>
+       </div> 
+       <span id="errorOnay" class="uyari"></span>
+      <div class="iletisim-icerik">
+        <input type="submit" value="GÖNDER" class="btn">
+        <input type="reset" value="TEMİZLE" class="btn">
+      </div>
+    </form>
+    </div>
+
+
+          </div>     
+      </div>
+  </section>
+
+
+   <!-- FOOTER ALANI-->
+  <footer id="footerid" class="fixed-bottom">
+      <div class="container-fluid">
+          <div class="row text-center">
+            <div class="col-md-6 mx-auto">
+              <p class="footermetin">&copy; 2020 Kevser BÜYÜK AYDIN</p>
+            </div>
+          </div>
+        </div>
+  </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

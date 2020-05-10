@@ -13,32 +13,76 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-  <section>
-        <div class="container">
-            <div class="row">
-                <div class="resim-etkinlik">
-                <div class="col-md-6 text-center">
-                <img src="./images/gecegokyuzu.jpg">
-                </div>
-                <div class="col-md-6 text-center">
-                <img src="./images/teleskopgunes.jpg" >
-                </div>
-                </div>
+  <!-- MENU ALANI-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#acılırmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">KEVSER</a>
+        <div class="collapse navbar-collapse" id="acılırmenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item secili">
+            <a class="nav-link " href="index.html">Hakkımda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ozgecmis.html">Özgeçmişim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sehrim.html">Şehrim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="miras.html">Mirasımız</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="giris.html">Giriş</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iletisim.html">İletişim</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
+   <section id="resimSection">
+      <div class="container">
+         <div class="row text-center">
+            <div class="col-md-12">
+              <h3 class="sehir-baslik">RESİMLER</h3>
             </div>
-            <div class="row ">
-                <div class="col-md-6 text-center">
-                <div class="etkinlikimage">
-                <img src="./images/gecegokyuzu.jpg">
-                </div>
-                </div>
-                <div class="col-md-6 text-center">
-                <div class="etkinlikimage">
-                <img src="./images/teleskopgunes.jpg" >
-                </div>
-                </div>
+            <div class="col-md-3">
+              <div class="etkinlik-resim">
+                <img src="./images/etkinlik-1.jpg" title="etkinlik1" class="anaSayfaResim">
+              </div>
             </div>
-        </div>
-  </section>
+            <div class="col-md-3">
+              <div class="etkinlik-resim">
+                <img src="./images/etkinlik-2.jpg" title="etkinlik2" class="anaSayfaResim">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="etkinlik-resim">
+                <img src="./images/etkinlik-3.jpg" title="etkinlik3" class="anaSayfaResim"> 
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="etkinlik-resim">
+                <img src="./images/etkinlik-4.jpg" title="etkinlik4" class="anaSayfaResim">
+              </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <div class="etkinlik-resim">
+                  <p>Ana Sayfaya geri dönmek için tıklayınız.</p>
+                  <a href="index.html"><button type="button" class="geriBtn">Geri Dön</button></a>
+              </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
 
 
 
